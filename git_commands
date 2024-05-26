@@ -15,20 +15,20 @@ git init
 	git branch -m main
 
 	##Create a new branch
-	git branch branch_name
+	git branch <BRANCH_NAME>
 
 	##Moving to the new branch
-	git checkout branch_name
+	git checkout <BRANCH_NAME>
 
 	##Deleting a branch
-	git branch -d branch_name
+	git branch -d <BRANCH_NAME>
 
 #Check the status of files
 git status
 
 #To remove files from the staging area
-git rm --cached <file>
-git restore --staged <file>
+git rm --cached <FILE>
+git restore --staged <FILE>
 
 #Git commit history
 git log
