@@ -28,12 +28,18 @@ git init
 	git checkout main  #checkout the branch to where you want to merge
 	git merge feature1 #the branch you want to merge
 
-	## Delete a branch
+	## Delete a local branch
 	git branch -d <BRANCH_NAME>
+
+	## Delete the remote branch
+	git push origin -d <BRANCH_NAME>
 
 	## Push the new branch to remote
 	git push -u origin $NEW_BRANCH
 
+	## To check all the branches
+	git branch -a
+		
 # Check the status of files
 git status
 
