@@ -5,6 +5,9 @@ git config --global init.defaultBranch main
 git config --global user.name "<NAME>”
 git config --global user.email "<EMAIL>"
 
+# Command line option meaning
+	## -u == --set-upstream 
+
 # To get the git version installed on the machine
 git --version
 
@@ -27,6 +30,9 @@ git init
 
 	## Delete a branch
 	git branch -d <BRANCH_NAME>
+
+	## Push the new branch to remote
+	git push -u origin $NEW_BRANCH
 
 # Check the status of files
 git status
