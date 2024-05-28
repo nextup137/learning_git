@@ -14,6 +14,9 @@ git --version
 # Create new repository
 git init
 
+# Adding the credentials
+git remote set-url origin https://USERNAME:TOKEN@github.com/USERNAME/REPO.git
+
 # Add the remote repo
 git remote add origin $WEB_PATH.git
 
