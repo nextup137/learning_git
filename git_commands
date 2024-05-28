@@ -14,6 +14,9 @@ git --version
 # Create new repository
 git init
 
+# Add the remote repo
+git remote add origin $WEB_PATH.git
+
 # Branch
 	## Changing the branch name
 	git branch -m main
